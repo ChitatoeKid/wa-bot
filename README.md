@@ -32,11 +32,11 @@ $ pkg install git -y
 $ pkg install nodejs -y
 $ pkg install ffmpeg -y
 $ pkg install imagemagick -y
-$ git clone https://github.com/BochilGaming/games-wabot -b multi-device
+$ git clone https://github.com/ChitatoeKid/games-wabot -b multi-device
 $ cd games-wabot
 $ npm i 
 ```
-If error try using yarn instead of npm, see [here](https://github.com/BochilGaming/games-wabot/tree/multi-device#if-npm-install-failed--try--using-yarn-instead-of-npm)
+If error try using yarn instead of npm, see [here](https://github.com/ChitatoeKid/games-wabot/tree/multi-device#if-npm-install-failed--try--using-yarn-instead-of-npm)
 ```sh
 $ node .
 ```
@@ -80,7 +80,7 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-git clone https://github.com/BochilGaming/games-wabot -b multi-device
+git clone https://github.com/ChitatoeKid/games-wabot -b multi-device
 cd games-wabot
 npm install
 npm update
